@@ -13,7 +13,9 @@ const artistaSchema = new Schema({
         type: String
     }],
     albums: [{
-        type: String
+        nombre: { type: String },
+        portada: { type: String },
+        fecha: { type: Date }
     }],
     lanzamiento: {
         type: Date
